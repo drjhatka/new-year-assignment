@@ -27,6 +27,7 @@ body{
     display: flex;
    border: 1px solid green;
     height: 700px;
+    justify-content: space-around;
 
 }
 
@@ -39,10 +40,17 @@ body{
    
     border: 1px solid red;
 }
-.middle_text_heading{
-    padding:40px;
+.middle_section{
+    padding: 30px;
+}
+.middle_heading{
+    font-size: 40px;
+    text-align: center;
 }
 
+.middle_description{
+    text-align: left;
+}
 .banner_image{
     width: 550px;
     height: 400px;
