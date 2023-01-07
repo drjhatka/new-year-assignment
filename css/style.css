@@ -1,6 +1,11 @@
+.{
+    margin:auto;
+}
 
 .banner_container{
     display: flex;
+    /* background-color: gray;
+    justify-content: space-between; */
 }
 .banner_image{
     width: 50%;
@@ -8,4 +13,14 @@
     color: red;
     background-image: url('../images/banner/banner1.png');
     background-size: cover;
+}
+
+.banner_description{
+    width: 50%;
+    padding-top: 150px ;
+    text-align: center;
+}
+.banner_text{
+    font-size: 47px;
+    font-weight: bold;
 }
