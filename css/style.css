@@ -1,16 +1,11 @@
 body{
-    margin:auto;
-
+    font-family: 'Work Sans';
 }
 
-.middle_image{
-    max-height:300px;
-    max-width: 300px;
-}
+
 
 .banner_container{
     /* border: 1px solid red; */
-    font-family: 'Work Sans';
     display: flex;
     background-image: url('../images/banner/banner1.png');
     width: 100%;
@@ -25,31 +20,64 @@ body{
 .middle_container{
     padding: 20px;
     display: flex;
-   border: 1px solid green;
+
     height: 700px;
     justify-content: space-around;
 
 }
 
 .middle_image{
-    margin-left:30px;
-    padding:10px;
+    /* margin-left:30px;
+     */
     /* width: 400px;*/
-    background-color: darksalmon; 
-   position: inherit;
+    /* background-image: url("../images/gradient3.png");
+    background-repeat: stretch; */
+    /* border-radius: 40%; */
+    /* height: 500px; */
+    color:red;
+    margin-left:150px;
+
    
-    border: 1px solid red;
-}
-.middle_section{
-    padding: 30px;
-}
-.middle_heading{
-    font-size: 40px;
-    text-align: center;
 }
 
+.planner_container{
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+
+.planner_section{
+    text-align: center;
+}
+.middle_text{
+    /* padding: 30px; */
+    display: block;
+}
+.middle_heading{
+    padding-top:150px;
+    padding-left:10px;
+    margin:30px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.middle_list{
+    list-style: none;
+
+}
+
+ul  li:before{
+    content:'✓';
+    color:rgba(10, 235, 77, 0.7);
+    font-weight: bolder;
+    margin-right: 5px;
+}
 .middle_description{
-    text-align: left;
+
+    padding-left:40px;
+    padding-right:250px;
+    color:rgba(0, 0, 0, 0.7);
+    font-size: 15px;
 }
 .banner_image{
     width: 550px;
@@ -87,4 +115,68 @@ body{
     background-color: darkgreen;
     color: white;
     border-radius: 5px;
+}
+
+.planner_caption{
+    margin-top:10px;
+    text-align: center;
+}
+
+.third_section{
+
+    position: relative;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+
+}
+.text_over_image{
+    text-align: left;
+    color: white;
+    position:absolute;
+    top:15%;
+    left:10%;
+}
+.gradient_image{
+
+    background-image: linear-gradient(rgba(192, 17, 17, 0.6),rgba(0,0,0,0.03)), url(../images/watch.png);
+    background-size: cover;
+    height:300px;
+    border-radius: 10px;
+}
+.over_image_btn{
+    
+    position:absolute;
+    top:55%;
+    left:10%;
+    background-color: antiquewhite;
+    color:red;
+    font-weight: bold;
+    border:none;
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+
+    padding-left:50px;
+}
+
+.footer_description{
+    text-align: justify;
+}
+.footer_left{ 
+    display: block;
+}
+.footer_icons{
+    display: flex;
+
+}
+.icon{
+    margin-right:10px;
 }
